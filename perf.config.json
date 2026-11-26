@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "path": "/",
+      "pageGroup": "home"
+    }
+  ],
+  "runs": 3,
+  "formFactor": "mobile",
+  "budgetFile": null,
+  "failOn": "never",
+  "comment": "always",
+  "lessonBaseUrl": "https://webperformancelearn.com/lessons",
+  "localBuild": {
+    "install": "npm ci",
+    "build": "npm run build",
+    "serve": {
+      "start": "npm run start -- --hostname 127.0.0.1 --port $PORT",
+      "readyPath": "/"
+    }
+  }
+}
