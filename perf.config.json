@@ -18,6 +18,7 @@
     "serve": {
       "start": "npm run start -- --hostname 127.0.0.1 --port $PORT",
       "readyPath": "/"
-    }
+    },
+    "bundleDir": ".next/static"
   }
 }
