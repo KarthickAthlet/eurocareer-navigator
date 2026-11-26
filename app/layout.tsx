@@ -9,7 +9,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer>
+          <p>EuroCareer Navigator · Career planning for Europe</p>
+        </footer>
+      </body>
     </html>
   );
 }
