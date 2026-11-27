@@ -32,7 +32,7 @@ jobs:
       # needed: actions/checkout is for the repository's own files; the action runs from the
       # public repo's dist/index.js referenced by the `uses:` line below.
       - name: MergeDelta publish
-        uses: mergedelta/action/publish@66965d89d0c6860f36a6a1ee3dd1f9c8f961147e # v1.4.0
+        uses: mergedelta/action/publish@b2f806c81d009d84e7a62eb1082777ce63c1271e # v1.5.0
         with:
           github-token: ${{ github.token }}   # reads only: artifact, PRs, files, compare
           mergedelta-api: "https://ietochxecbljqodazkik.supabase.co/functions/v1"
